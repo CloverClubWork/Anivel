@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: ghostwhite;
 }
 body{
   max-width: 100%;
@@ -15,4 +16,9 @@ body{
 .navigation{
   min-width: 100%;
   height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
