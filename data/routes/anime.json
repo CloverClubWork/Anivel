@@ -1,6 +1,37 @@
 {
   "data": [
     {
+      "anilistId": 161645,
+      "malId": 54492,
+      "title": {
+        "romaji": "Kusuriya no Hitorigoto",
+        "native": "薬屋のひとりごと",
+        "english": "The Apothecary Diaries"
+      },
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx161645-7I8Cip7XRDhV.jpg",
+      "status": "Releasing",
+      "format": "TV",
+      "currentEpisode": 17,
+      "season": "Fall",
+      "year": 2023,
+      "popularity": 77636,
+      "score": 86,
+      "genre": [
+        {
+          "name": "Drama"
+        },
+        {
+          "name": "Mystery"
+        }
+      ],
+      "provider": {
+        "anitaku": "kusuriya-no-hitorigoto",
+        "animepahe": "",
+        "9anime": "",
+        "aniwatch": "the-apothecary-diaries-18578"
+      }
+    },
+    {
       "anilistId": 152682,
       "malId": 52482,
       "title": {
@@ -9,47 +40,13 @@
         "english": "Sasaki and Peeps"
       },
       "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx152682-p91VzQq75uZV.jpg",
-      "banner": "/images/sasaki-and-peeps-teaser-visual-v0-O6bhAP2j-vF3_pw7W8hpbji7oAuvMbsB29S-WEdp2uI.jpg",
       "status": "Releasing",
       "format": "TV",
-      "type": "Anime",
       "currentEpisode": 5,
-      "totalEpisodes": 12,
-      "duration": "24 min",
       "season": "Winter",
-      "source": "Light Novel",
       "year": 2024,
       "popularity": 16244,
-      "score": {
-        "anilist": 70,
-        "mal": 7.50
-      },
-      "studios": [
-        {
-          "name": "SILVER LINK"
-        }
-      ],
-      "producers": [
-        {
-          "name": "AT-X"
-        },{
-          "name":"Nippon Colombia"
-        },{
-          "name":"Sammy"
-        },{
-          "name":"Crunchyroll"
-        },{
-          "name":"Kadokawa"
-        },{
-          "name":"Bit Grooove Promotion"
-        },{
-          "name":"GREE Entertainment"
-        }
-      ],
-      "releaseDate": {
-        "from": "January 5, 2024",
-        "to": "March 22, 2024"
-      },
+      "score": 70,
       "genre": [
         {
           "name": "Comedy"
@@ -64,8 +61,7 @@
         "animepahe": "",
         "9anime": "",
         "aniwatch": "sasaki-and-peeps-18763"
-      },
-      "description":""
+      }
     },
     {
       "anilistId": 146066,
@@ -76,47 +72,13 @@
         "english": "Classroom of the Elite Season 3"
       },
       "cover": "https://imgs.search.brave.com/bEe0lt1dG1EhxM1r34lV2gY_BQCHJkBnjzV2t3pSZH0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5pbWVuZXdzbmV0/d29yay5jb20vdGh1/bWJuYWlscy9tYXg2/MDB4NjAwL2Ntcy9u/ZXdzLjYvMjAwNTU4/L2VsaXRlLmpwZw",
-      "banner": "https://imgs.search.brave.com/iKJDeS9JLLZOASwi_-IqTYk86-tuR2O_qDc56lUhrzI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGV4ZXJ0by5jb20v/Y2RuLWNnaS9pbWFn/ZS93aWR0aD0zODQw/LHF1YWxpdHk9NzUs/Zm9ybWF0PWF1dG8v/aHR0cHM6Ly9lZGl0/b3JzLmRleGVydG8u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDI0LzAxLzAyL3Nh/ZS01LmpwZw",
       "status": "Releasing",
       "format": "TV",
-      "type": "Anime",
       "currentEpisode": 5,
-      "totalEpisodes": 13,
-      "duration": "24 min",
       "season": "Winter",
-      "source": "Light Novel",
       "year": 2024,
       "popularity": 72830,
-      "score": {
-        "anilist": 78,
-        "mal": 7.08
-      },
-      "studios": [
-        {
-          "name": "Lerche"
-        }
-      ],
-      "producers": [
-        {
-          "name": "KADOKAWA"
-        },{
-          "name": "Crunchyroll"
-        },{
-          "name": "Bandai Namco Music Live"
-        },{
-          "name": "Sammy"
-        },{
-          "name": "Movic"
-        },{
-          "name": "Kadokawa Media House"
-        },{
-          "name":"Studio Hibari"
-        }
-      ],
-      "releaseDate": {
-        "from": "January 3, 2024",
-        "to": "March 27, 2024"
-      },
+      "score": 78,
       "genre": [
         {
           "name": "Drama"
@@ -130,7 +92,6 @@
         "9anime": "",
         "aniwatch": "classroom-of-the-elite-iii-18880"
       },
-      "description": "The third season of Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e.\n\nThe third semester kicks off in high gear with a special boot camp deep in the mountains. Forcibly separated into groups along grade and gender lines, the first, second and third years alike must work together to survive the rugged terrain. Even worse? The leader of the group that comes in last will be expelled. Can Class D make it back to campus intact, or is this where they finally say goodbye to one of their own?"
     },
     {
       "anilistId": 156891,
@@ -141,51 +102,13 @@
         "english": "The Weakest Tamer Began a Journey to Pick Up Trash"
       },
       "cover": "/images/the-weakest-tamer-began-a-journey-to-pick-up-trash.jpg",
-      "banner": "/images/weakest-tamer-trash-05-03-2023-e1683130828717.jpg",
       "status": "Releasing",
       "format": "TV",
-      "type": "Anime",
       "currentEpisode": 4,
-      "totalEpisodes": 12,
-      "duration": "24 min",
       "season": "Winter",
-      "source": "Light Novel",
       "year": 2024,
       "popularity": 14292,
-      "score": {
-        "anilist": 69,
-        "mal": 7.25
-      },
-      "studios": [
-        {
-          "name": "Studio Massket"
-        }
-      ],
-      "producers": [
-        {
-          "name": "AbC Animation"
-        }, {
-          "name": "NetEase Games"
-        }, {
-          "name": "TO Books"
-        }, {
-          "name": "Bandai Namco Music Live"
-        }, {
-          "name": "Movic"
-        }, {
-          "name": "BS Asahi"
-        }, {
-          "name": "ABC Frontier"
-        }, {
-          "name": "KLOCKWORX"
-        }, {
-          "name": "TOKYO MX"
-        }
-      ],
-      "releaseDate": {
-        "from": "January 24, 2024",
-        "to": "March 29, 2024"
-      },
+      "score": 69,
       "genre": [
         {
           "name": "Adventure"
@@ -198,8 +121,7 @@
         "animepahe": "",
         "9anime": "",
         "aniwatch": "the-weakest-tamer-began-a-journey-to-pick-up-trash-18811"
-      },
-      "description": ""
+      }
     },
     {
       "anilistId": 151807,
@@ -210,43 +132,12 @@
         "english": "Solo Leveling"
       },
       "cover": "/images/solo-leveling.png",
-      "banner": "/images/solo-leveling-banner-jpg",
       "status": "Releasing",
       "format": "TV",
-      "type": "Anime",
       "currentEpisode": 5,
-      "totalEpisodes": 12,
-      "duration": "24 min",
       "season": "Winter",
-      "source": "Web Novel",
       "year": 2024,
       "popularity": 139123,
-      "studios": [
-        {
-          "name": "A-1 Picture"
-        }
-      ],
-      "producers": [
-        {
-          "name": "Aniplex"
-        },
-        {
-          "name": "Netmarble"
-        },
-        {
-          "name": "D&C MEDIA"
-        },
-        {
-          "name": "Kakao piccoma"
-        },
-        {
-          "name": "Chrunchyroll"
-        }
-      ],
-      "releaseDate": {
-        "from": "January 7, 2024",
-        "to": "March 24, 2024"
-      },
       "genre": [
         {
           "name": "Action"
@@ -258,17 +149,13 @@
           "name": "Fantasy"
         }
       ],
-      "score": {
-        "anilist": 89,
-        "mal": 8.45
-      },
+      "score": 89,
       "provider": {
         "anitaku": "ore-dake-level-up-na-ken",
         "animepahe": "",
         "9anime": "",
         "aniwatch": "solo-leveling-18718"
-      },
-      "description": "They say whatever doesn’t kill you makes you stronger, but that’s not the case for the world’s weakest hunter Sung Jinwoo. After being brutally slaughtered by monsters in a high-ranking dungeon, Jinwoo came back with the System, a program only he could see, that’s leveling him up in every way. Now, he’s inspired to discover the secrets behind his powers and the dungeon that spawned them."
+      }
     },
     {
       "anilistId": 154587,
@@ -278,39 +165,14 @@
         "native": "Frieren: Beyond Journey’s End",
         "english": "葬送のフリーレン"
       },
-      "cover": "/images/souso-no-frieren.jpg",
-      "banner": "/images/souso-no-frieren-banner.jpg",
+      "cover": "/images/souso-no-frieren.jpg",,
       "status": "Releasing",
-      "format": "TV",
-      "type": "Anime",
+      "format": "TV",,
       "currentEpisode": 21,
-      "totalEpisodes": 28,
-      "duration": "24 min",
       "season": "Fall",
-      "source": "Manga",
       "year": 2023,
       "popularity": 126944,
-      "studios": [
-        {
-          "name": "MADHOUSE"
-        }
-      ],
-      "producers": [
-        { "name": "Toho" },
-        { "name": "Shogakukan" },
-        { "name": "Nippon Television Network" },
-        { "name": "Shogakukan-Shueisha Productions" },
-        { "name": "Aniplex" },
-        { "name": "Detsu" }
-      ],
-      "releaseDate": {
-        "from": "Sep 29, 2023",
-        "to": "March, 2024"
-      },
-      "score": {
-        "anilist": 90,
-        "mal": 9.13
-      },
+      "score": 90,
       "provider": {
         "anitaku": "sousou-no-frieren",
         "animepahe": "",
@@ -327,8 +189,45 @@
         {
           "name": "Fantasy"
         }
+      ]
+    },
+    {
+      "anilistId": 150972,
+      "malId": 52082,
+      "title": {
+        "romaji": "Shiro Seijo to Kuro Bokushi",
+        "native": "",
+        "english": "Saint Cecilia & Pastor Lawrence"
+      },
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150972-3gNJvsyu7lwP.png",
+      "status": "Releasing",
+      "format": "TV",
+      "currentEpisode": 12,
+      "season": "Summer",
+      "year": 2023,
+      "popularity": 20640,
+      "score": 72,
+      "genre": [
+        {
+          "name": "Comedy"
+        },
+        {
+          "name": "Fantasy"
+        },
+        {
+          "name": "Romance"
+        },
+        {
+          "name": "Slice of Life"
+        }
       ],
-      "description": "The adventure is over but life goes on for an elf mage just beginning to learn what living is all about. Elf mage Frieren and her courageous fellow adventurers have defeated the Demon King and brought peace to the land. But Frieren will long outlive the rest of her former party. How will she come to understand what life means to the people around her? Decades after their victory, the funeral of one her friends confronts Frieren with her own near immortality. Frieren sets out to fulfill the last wishes of her comrades and finds herself beginning a new adventure…\n\n(Source: Crunchyroll)"
+      "provider": {
+        "anitaku": "",
+        "animepahe": "",
+        "9anime": "",
+        "aniwatch": "saint-cecilia-and-pastor-lawrence-18480"
+      }
+    }
     }
   ]
 }
