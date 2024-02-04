@@ -16,14 +16,6 @@
       "year": 2023,
       "popularity": 77636,
       "score": 86,
-      "genre": [
-        {
-          "name": "Drama"
-        },
-        {
-          "name": "Mystery"
-        }
-      ],
       "provider": {
         "anitaku": "kusuriya-no-hitorigoto",
         "animepahe": "",
@@ -47,15 +39,6 @@
       "year": 2024,
       "popularity": 16244,
       "score": 70,
-      "genre": [
-        {
-          "name": "Comedy"
-        },{
-          "name":"Fantasy"
-        },{
-          "name":"Mahou Shoujo"
-        }
-      ],
       "provider": {
         "anitaku": "sasaki-to-pii-chan",
         "animepahe": "",
@@ -79,13 +62,6 @@
       "year": 2024,
       "popularity": 72830,
       "score": 78,
-      "genre": [
-        {
-          "name": "Drama"
-        },{
-          "name":"Psychological"
-        }
-      ],
       "provider": {
         "anitaku": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season",
         "animepahe": "",
@@ -109,13 +85,6 @@
       "year": 2024,
       "popularity": 14292,
       "score": 69,
-      "genre": [
-        {
-          "name": "Adventure"
-        }, {
-          "name": "Fantasy"
-        }
-      ],
       "provider": {
         "anitaku": "saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita",
         "animepahe": "",
@@ -138,17 +107,6 @@
       "season": "Winter",
       "year": 2024,
       "popularity": 139123,
-      "genre": [
-        {
-          "name": "Action"
-        },
-        {
-          "name": "Adventure"
-        },
-        {
-          "name": "Fantasy"
-        }
-      ],
       "score": 89,
       "provider": {
         "anitaku": "ore-dake-level-up-na-ken",
@@ -178,18 +136,7 @@
         "animepahe": "",
         "9anime": "",
         "aniwatch": "frieren-beyond-journeys-end-18542"
-      },
-      "genre": [
-        {
-          "name": "Adventure"
-        },
-        {
-          "name": "Drama"
-        },
-        {
-          "name": "Fantasy"
-        }
-      ]
+      }
     },
     {
       "anilistId": 150972,
@@ -207,20 +154,6 @@
       "year": 2023,
       "popularity": 20640,
       "score": 72,
-      "genre": [
-        {
-          "name": "Comedy"
-        },
-        {
-          "name": "Fantasy"
-        },
-        {
-          "name": "Romance"
-        },
-        {
-          "name": "Slice of Life"
-        }
-      ],
       "provider": {
         "anitaku": "",
         "animepahe": "",
