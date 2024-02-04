@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AniVel</title>
   <script src="https://kit.fontawesome.com/8d333124e2.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../data/shimmer.css">
+  <link rel="stylesheet" href="../data/style.css" type="text/css" media="all" />
 </head>
 
 <body>
@@ -23,8 +24,50 @@
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
+    <!-- Content -->
+    <div class="page-content">
+      <div class="container">
+        <div class="header-con">
+          <h3>Latest Episodes</h3>
+          <div>
+            <span>View All</span>
+          </div>
+        </div>
+        <ul id="latestEpisode"></ul>
+      </div>
+      <div class="container">
+        <div class="header-con">
+          <h3>This Season</h3>
+          <div>
+            <span>View All</span>
+          </div>
+        </div>
+        <ul id="seasonal"></ul>
+      </div>
+      <div class="container">
+        <div class="header-con">
+          <h3>Top Airing</h3>
+          <div>
+            <span>View All</span>
+          </div>
+        </div>
+        <ul id="topAiring"></ul>
+      </div>
+      <div class="container">
+        <div class="header-con">
+          <h3>Popular</h3>
+          <div>
+            <span>View All</span>
+          </div>
+        </div>
+        <ul id="topPopularity"></ul>
+      </div>
+    </div>
   </div>
   
+  <!-- Script Tag -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="../data/novel-script.js"></script>
 </body>
 
 </html>
