@@ -123,7 +123,7 @@
         "native": "最弱テイマーはゴミ拾いの旅を始めました。",
         "english": "The Weakest Tamer Began a Journey to Pick Up Trash"
       },
-      "cover": "/images/the-weakest-tamer-began-a-journey-to-pick-up-trash.jpg",
+      "cover": "../data/images/the-weakest-tamer-began-a-journey-to-pick-up-trash.jpg",
       "status": "Releasing",
       "format": "TV",
       "currentEpisode": 4,
@@ -146,7 +146,7 @@
         "native": "俺だけレベルアップな件",
         "english": "Solo Leveling"
       },
-      "cover": "/images/solo-leveling.png",
+      "cover": "../data/images/solo-leveling.png",
       "status": "Releasing",
       "format": "TV",
       "currentEpisode": 5,
@@ -169,7 +169,7 @@
         "native": "Frieren: Beyond Journey’s End",
         "english": "葬送のフリーレン"
       },
-      "cover": "/images/souso-no-frieren.jpg",
+      "cover": "../data/images/souso-no-frieren.jpg",
       "status": "Releasing",
       "format": "TV",
       "currentEpisode": 21,
