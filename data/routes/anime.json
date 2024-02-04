@@ -1,6 +1,28 @@
 {
   "data": [
     {
+      "anilistId": 168374,
+      "malId": 56352,
+      "title": {
+        "romaji": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimamana Hanayome Seikatsu wo Mankitsu Suru",
+        "native": "",
+        "english": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!"
+      },
+      "cover": "../data/images/7th-time-loop-the-villainess-enjoys-a-carefree-life-married.jpg",
+      "format": "TV",
+      "currentEpisode": 5,
+      "season": "Winter",
+      "year": 2024,
+      "popularity": 21606,
+      "score": 76,
+      "provider": {
+        "anitaku": "loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru",
+        "animepahe": "",
+        "9anime": "",
+        "aniwatch": "7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy-18784"
+      }
+    },
+    {
       "anilistId": 146493,
       "malId": 51297,
       "title": {
@@ -218,7 +240,7 @@
       "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3dDzvGPWO8mP8OfDtHibSeu49J6J6xlh5eA&usqp=CAU",
       "status": "Completed",
       "format": "TV",
-      "currentEpisode": 0,
+      "currentEpisode": 20,
       "season": "Fall",
       "year": 2022,
       "popularity": 153863,
