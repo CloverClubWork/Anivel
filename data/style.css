@@ -147,7 +147,7 @@ ul li .item-cover #caption{
 }
 #topPopularity li img{
   width: 120px;
-  height: 125px;
+  height: 115px;
   border-radius: 5px
 }
 #topPopularity li div{
@@ -165,10 +165,11 @@ ul li .item-cover #caption{
 }
 #topPopularity li div p:first-child{
  font-size: 12pt;
+ margin-bottom: 8px;
  display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  max-height: 3em;
+  max-height: 2.5em;
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
 }
