@@ -20,25 +20,15 @@ $(document).ready(function () {
             container.empty();
             results.forEach(items => {
                 const item =
-                    `
-          <li class='item' data-src=''>
-              <div class='item-cover'>
-                <img src='` +
-                    items.cover +
-                    `' alt='Cover' loading='lazy'/>
-              </div>
-              <p id='item-title'>` +
-                    items.title.romaji +
-                    `</p>
-          </li>
-        `;
+                    `<li class='item' data-src=''>
+                       <div class='item-cover'>
+                          <img src='` +items.cover +`' alt='Cover' loading='lazy'/>
+                       </div>
+                       <p id='item-title'>` +items.title.romaji +`</p>
+                    </li>`;
                 container.append(item);
             });
-            const loadMore = `
-        <li class='viewmore'>
-           <span>View More</span>
-        </li>
-      `;
+            const loadMore = `<li class='viewmore'><span>View More</span></li>`;
             $("#latestEpisode li:last").after(loadMore);
         })
         .catch(error => {
@@ -79,7 +69,7 @@ $(document).ready(function () {
       `;
             $("#seasonal li:last").after(loadMore);
         })
-        .then(error => {
+        .catch(error => {
             console.log(error);
         });
 
@@ -117,7 +107,7 @@ $(document).ready(function () {
           `;
             $("#topAiring li:last").after(loadMore);
         })
-        .then(error => {
+        .catch(error => {
             console.log(error);
         });
 
