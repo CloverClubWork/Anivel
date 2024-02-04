@@ -82,7 +82,7 @@ $(document).ready(function () {
                          <p><i class="fa-regular fa-face-smile"></i> ` +
                     items.score +
                     `%</p>
-                          <p><i class="fa-solid fa-closed-captioning"></i> ` +
+                          <p><i class="fa-solid fa-tv"></i> ` +
                     items.format +
                     `</p>
                        </div>
