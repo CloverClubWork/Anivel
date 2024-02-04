@@ -91,7 +91,20 @@ ul li .item-cover img {
   height: 100%;
   border-radius: 8px
 }
-ul li .item-cover span{
+ul li .item-cover #score{
+  min-width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000089;
+  color:  ghostwhite;
+  font-size: 7pt;
+  padding: 5px 7px;
+  margin: 5px;
+  border-radius: 5px;
+}
+ul li .item-cover #caption{
   min-width: auto;
   height: auto;
   position: absolute;
@@ -128,40 +141,37 @@ ul li .item-cover span{
   height: auto;
   padding: 0;
   margin-bottom: 7px;
-}
-#topPopularity li div{
   display: flex;
+  flex-direction: row;
+  overflow: scroll;
 }
-#topPopularity li div img{
-  width: 110px;
-  height: 110px;
+#topPopularity li img{
+  width: 120px;
+  height: 125px;
   border-radius: 5px
 }
-#topPopularity li div .info{
+#topPopularity li div{
   width: 100%;
-  padding: 0 8px;
   height: auto;
+  padding: 8px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
 }
-#topPopularity li div .info p:first-child{
-  font-size: 12pt;
-  color: ghostwhite;
-  display: -webkit-box;
+#topPopularity li div p{
+ font-size: 8pt;
+ margin: 8px 0 0 0;
+}
+#topPopularity li div p:first-child{
+ font-size: 12pt;
+ display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
   max-height: 3em;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   text-overflow: ellipsis;
-  margin-bottom: 6px;
 }
-#topPopularity li div .info p{
-  font-size: 10pt;
-  color: #D88406;
-}
-
 .viewmore{
   min-width: 130px;
   height: 180px;
