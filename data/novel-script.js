@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('#latestEpisode').append(li);
   }
   
-  fetch('/data/routes/anime.json')
+  fetch('https://anivel.netlify.app/data/routes/anime.json')
     .then(res => {
       if (!res.ok) {
         throw new Error('Something went wrong');
