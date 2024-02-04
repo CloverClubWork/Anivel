@@ -23,6 +23,7 @@ $(document).ready(function () {
                     `<li class='item' data-src=''>
                        <div class='item-cover'>
                           <img src='` +items.cover +`' alt='Cover' loading='lazy'/>
+                          <span id='caption'><i class="fa-solid fa-closed-captioning"></i> `+items.currentEpisode+`</span>
                        </div>
                        <p id='item-title'>` +items.title.romaji +`</p>
                     </li>`;
