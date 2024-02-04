@@ -206,6 +206,29 @@
         "9anime": "",
         "aniwatch": "saint-cecilia-and-pastor-lawrence-18480"
       }
+    },
+    {
+      "anilistId": 130298,
+      "malId": 48316,
+      "title": {
+        "romaji": "Kage no Jitsuryokusha ni Naritakute!",
+        "native": "",
+        "english": "The Eminence in Shadow"
+      },
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3dDzvGPWO8mP8OfDtHibSeu49J6J6xlh5eA&usqp=CAU",
+      "status": "Completed",
+      "format": "TV",
+      "currentEpisode": 0,
+      "season": "Fall",
+      "year": 2022,
+      "popularity": 153863,
+      "score": 82,
+      "provider": {
+        "anitaku": "the-eminence-in-shadow",
+        "animepahe": "",
+        "9anime": "",
+        "aniwatch": "the-eminence-in-shadow-17473"
+      }
     }
   ]
 }
