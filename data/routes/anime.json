@@ -1,6 +1,52 @@
 {
   "data": [
     {
+      "anilistId": 146493,
+      "malId": 51297,
+      "title": {
+        "romaji": "Ragna Crimson",
+        "native": "ラグナクリムゾン",
+        "english": "Ragna Crimson"
+      },
+      "cover": "../data/images/ragna-crimson.jpeg",
+      "status": "Releasing",
+      "format": "TV",
+      "currentEpisode": 16,
+      "season": "Fall",
+      "year": 2023,
+      "popularity": 42187,
+      "score": 72,
+      "provider": {
+        "anitaku": "ragna-crimson",
+        "animepahe": "",
+        "9anime": "",
+        "aniwatch": "ragna-crimson-18566"
+      }
+    },
+    {
+      "anilistId": 166216,
+      "malId": 55690,
+      "title": {
+        "romaji": "Boku no Kokoro no Yabai Yatsu 2nd Season",
+        "native": "僕の心のヤバイやつ 第2期",
+        "english": "The Dangers in My Heart Season 2"
+      },
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166216-mK2CNMDLsBfW.jpg",
+      "status": "Releasing",
+      "format": "TV",
+      "currentEpisode": 5,
+      "season": "Winter",
+      "year": 2024,
+      "popularity": 29484,
+      "score": 85,
+      "provider": {
+        "anitaku": "boku-no-kokoro-no-yabai-yatsu-season-2",
+        "animepahe": "",
+        "9anime": "",
+        "aniwatch": "the-dangers-in-my-heart-season-2-18868"
+      }
+    },
+    {
       "anilistId": 161645,
       "malId": 54492,
       "title": {
