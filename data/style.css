@@ -127,7 +127,9 @@ ul li .item-cover #caption{
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
 }
-
+ul li:nth-child(n+16){
+  display: none;
+}
 #topPopularity{
   max-width: 100%;
   height: auto;
@@ -172,6 +174,9 @@ ul li .item-cover #caption{
   max-height: 2.5em;
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
+}
+#topPopularity li:nth-child(n+11){
+  display: none;
 }
 .viewmore{
   min-width: 130px;
