@@ -43,7 +43,7 @@ $(document).ready(function () {
                     return b.year - a.year;
                 }
                 // If popularity is the same, sort by year in ascending order
-                return b.score - a.score;
+                return b.popularity - a.popularity;
             });
             $("#topAiring").empty();
             sortByAiring.forEach(items => {
