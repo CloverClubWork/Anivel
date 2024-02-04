@@ -1,19 +1,24 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
   max-width: 100%;
   height: 100%;
   background-color: #111013;
 }
-.main-container{
+
+.main-container {
   max-width: 100%;
   height: 100%;
 }
-.navigation{
+
+.navigation {
   min-width: 100%;
   height: auto;
   display: flex;
@@ -21,4 +26,149 @@ body{
   position: fixed;
   left: 0;
   bottom: 0;
+  z-index: 100;
+  background-color: #111013;
+}
+
+.nav {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav>i {
+  font-size: 16pt;
+}
+
+.selected {
+  background: #8DD183;
+}
+
+.page-content {
+  padding: 20px 13px;
+}
+.container{
+  margin-bottom: 50px;
+}
+.container .header-con{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.header-con div span{
+  font-size: 9pt;
+  color: #7EEA86;
+}
+ul{
+  max-width: 100%;
+  height: auto;
+  list-style-type: none;
+  display: flex;
+  overflow: scroll
+}
+
+ul li {
+  min-width: 130px;
+  padding: 0;
+  height: auto;
+  margin: 0 8px 0 0;
+}
+
+ul li .item-cover {
+  width: 100%;
+  height: 180px;
+  background-color: #2D2D2D;
+}
+
+ul li .item-cover img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px
+}
+
+#item-title {
+  padding: 5px 0;
+  font-size: 10pt;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 3em;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+
+#topPopularity{
+  max-width: 100%;
+  height: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+#topPopularity li{
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin-bottom: 7px;
+}
+#topPopularity li div{
+  display: flex;
+}
+#topPopularity li div img{
+  width: 110px;
+  height: 110px;
+  border-radius: 5px
+}
+#topPopularity li div .info{
+  width: 100%;
+  padding: 0 8px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+#topPopularity li div .info p:first-child{
+  font-size: 12pt;
+  color: ghostwhite;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 3em;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  margin-bottom: 6px;
+}
+#topPopularity li div .info p{
+  font-size: 10pt;
+  color: #D88406;
+}
+
+.viewmore{
+  min-width: 130px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 8px;
+  background-color: #2D2D2D;
+}
+.viewmore span{
+  padding: 10px;
+  text-align: center;
+  font-size: 8pt;
+}
+
+.shimmer {
+  background: #2D2D2D;
+  background-image: linear-gradient(to right, #2B2B2B 0%, #2B2B2B 20%, #7F7F7F 40%, #7F7F7F 100%);
+  background-repeat: no-repeat;
+  min-width: 130px;
+  height: 180px;
+  border-radius: 8px;
+  margin: 0 8px 0 0;
 }
