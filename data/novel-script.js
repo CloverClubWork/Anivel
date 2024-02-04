@@ -6,12 +6,12 @@ $(document).ready(function () {
         $("#latestEpisode").append(li);
     }
 
-    fetch("https://anivel.netlify.app/data/routes/anime.json")
-        .then(res => {
-            if (!res.ok) {
+    fetch('../data/routes/anime.json')
+        .then(response => {
+            if (!response.ok) {
                 throw new Error("Something went wrong");
             }
-            return res.json();
+            return response.json();
         })
         .then(data => {
             const container = $("#latestEpisode");
@@ -41,16 +41,16 @@ $(document).ready(function () {
       `;
             $("#latestEpisode li:last").after(loadMore);
         })
-        .then(error => {
+        .catch(error => {
             console.log(error);
         });
 
     fetch("https://api.jikan.moe/v4/seasons/now")
-        .then(res => {
-            if (!res.ok) {
+        .then(response => {
+            if (!response.ok) {
                 throw new Error("Something went wrong");
             }
-            return res.json();
+            return response.json();
         })
         .then(data => {
             const container = $("#seasonal");
@@ -84,11 +84,11 @@ $(document).ready(function () {
         });
 
     fetch("https://api.jikan.moe/v4/top/anime?filter=airing")
-        .then(res => {
-            if (!res.ok) {
+        .then(response => {
+            if (!response.ok) {
                 throw new Error("Something went wrong");
             }
-            return res.json();
+            return response.json();
         })
         .then(data => {
             const container = $("#topAiring");
@@ -122,11 +122,11 @@ $(document).ready(function () {
         });
 
     fetch("https://api.jikan.moe/v4/top/anime?filter=bypopularity")
-        .then(res => {
-            if (!res.ok) {
+        .then(response => {
+            if (!response.ok) {
                 throw new Error("Something went wrong");
             }
-            return res.json();
+            return response.json();
         })
         .then(data => {
             const container = $("#topPopularity");
@@ -157,7 +157,7 @@ $(document).ready(function () {
                 container.append(item);
             });
         })
-        .then(error => {
+        .catch(error => {
             console.log(error);
         });
 });
