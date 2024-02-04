@@ -22,24 +22,26 @@ body {
   min-width: 100%;
   height: auto;
   display: flex;
-  justify-content: space-evenly;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: 100;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #111013;
+  padding: 8px;
 }
-
 .nav {
   padding: 10px;
-  width: 100%;
+  width: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
+.nav .nav1{
+  width: auto;
+  height: auto;
+}
+.nav .nav3{
+  width: auto;
+  height: auto;
+}
 .nav>i {
-  font-size: 16pt;
+  font-size: 20pt;
 }
 
 .selected {
