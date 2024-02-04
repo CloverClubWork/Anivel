@@ -6,7 +6,7 @@ $(document).ready(function () {
         $("#latestEpisode").append(li);
     }
 
-    fetch('../data/routes/anime.json')
+    fetch("../data/routes/anime.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Something went wrong");
@@ -14,139 +14,86 @@ $(document).ready(function () {
             return response.json();
         })
         .then(data => {
-            const container = $("#latestEpisode");
-            console.log(data);
             const results = data.data;
-            container.empty();
+            $("#latestEpisode").empty();
             results.forEach(items => {
                 const item =
                     `<li class='item' data-src=''>
                        <div class='item-cover'>
-                          <img src='` +items.cover +`' alt='Cover' loading='lazy'/>
-                          <span id='caption'><i class="fa-solid fa-closed-captioning"></i> `+items.currentEpisode+`</span>
+                          <img src='` +
+                    items.cover +
+                    `' alt='Cover' loading='lazy'/>
+                          <span id='score'><i class="fa-regular fa-face-smile"></i> ` +
+                    items.score +
+                    `%</span>
+                          <span id='caption'><i class="fa-solid fa-closed-captioning"></i> ` +
+                    items.currentEpisode +
+                    `</span>
                        </div>
-                       <p id='item-title'>` +items.title.romaji +`</p>
+                       <p id='item-title'>` +
+                    items.title.romaji +
+                    `</p>
                     </li>`;
-                container.append(item);
+                $("#latestEpisode").append(item);
             });
+            //Sort by airing
+            const sortByAiring = results.sort((a, b) => {
+                // Sort by popularity in descending order
+                if (b.year !== a.year) {
+                    return b.year - a.year;
+                }
+                // If popularity is the same, sort by year in ascending order
+                return b.score - a.score;
+            });
+            $("#topAiring").empty();
+            sortByAiring.forEach(items => {
+                const item =
+                    `<li class='item' data-src=''>
+                       <div class='item-cover'>
+                          <img src='` +
+                    items.cover +
+                    `' alt='Cover' loading='lazy'/>
+                         <span id='score'><i class="fa-regular fa-face-smile"></i> ` +
+                    items.score +
+                    `%</span>
+                          <span id='caption'><i class="fa-solid fa-closed-captioning"></i> ` +
+                    items.currentEpisode +
+                    `</span>
+                       </div>
+                       <p id='item-title'>` +
+                    items.title.romaji +
+                    `</p>
+                    </li>`;
+                $("#topAiring").append(item);
+            });
+            //Sort by popularity
+            const sortByPopularity = results.sort((a, b) => b.popularity - a.popularity);
+            $("#topPopularity").empty();
+            sortByPopularity.forEach(items => {
+                const item =
+                    `<li class='item' data-src=''>
+                      <img src='` +
+                    items.cover +
+                    `' alt='Cover' loading='lazy'/>
+                       <div class='info'>
+                          <p id='item-title'>` +
+                    items.title.romaji +
+                    `</p>
+                         <p><i class="fa-regular fa-face-smile"></i> ` +
+                    items.score +
+                    `%</p>
+                          <p><i class="fa-solid fa-closed-captioning"></i> ` +
+                    items.format +
+                    `</p>
+                       </div>
+                       
+                    </li>`;
+                $("#topPopularity").append(item);
+            });
+            
             const loadMore = `<li class='viewmore'><span>View More</span></li>`;
             $("#latestEpisode li:last").after(loadMore);
-        })
-        .catch(error => {
-            console.log(error);
-        });
-
-    fetch("https://api.jikan.moe/v4/seasons/now")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Something went wrong");
-            }
-            return response.json();
-        })
-        .then(data => {
-            const container = $("#seasonal");
-            const results = data.data;
-            container.empty();
-            results.forEach(items => {
-                const item =
-                    `
-          <li class='item' data-src=''>
-              <div class='item-cover'>
-                <img src='` +
-                    items.images.jpg.large_image_url +
-                    `' alt='Cover' loading='lazy'/>
-              </div>
-              <p id='item-title'>` +
-                    items.title +
-                    `</p>
-          </li>
-        `;
-                container.append(item);
-            });
-            const loadMore = `
-        <li class='viewmore'>
-           <span>View More</span>
-        </li>
-      `;
-            $("#seasonal li:last").after(loadMore);
-        })
-        .catch(error => {
-            console.log(error);
-        });
-
-    fetch("https://api.jikan.moe/v4/top/anime?filter=airing")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Something went wrong");
-            }
-            return response.json();
-        })
-        .then(data => {
-            const container = $("#topAiring");
-            const results = data.data;
-            container.empty();
-            results.forEach(items => {
-                const item =
-                    `
-        <li class='item' data-src=''>
-            <div class='item-cover'>
-              <img src='` +
-                    items.images.jpg.large_image_url +
-                    `' alt='Cover' loading='lazy'/>
-            </div>
-            <p id='item-title'>` +
-                    items.title +
-                    `</p>
-        </li>
-      `;
-                container.append(item);
-            });
-            const loadMore = `
-            <li class='viewmore'>
-               <span>View More</span>
-            </li>
-          `;
             $("#topAiring li:last").after(loadMore);
-        })
-        .catch(error => {
-            console.log(error);
-        });
-
-    fetch("https://api.jikan.moe/v4/top/anime?filter=bypopularity")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Something went wrong");
-            }
-            return response.json();
-        })
-        .then(data => {
-            const container = $("#topPopularity");
-            const results = data.data;
-            container.empty();
-            results.forEach(items => {
-                const item =
-                    `
-          <li class='item' data-src=''>
-            <div>
-              <img src='` +
-                    items.images.jpg.image_url +
-                    `' alt='Cover' loading='lazy'/>
-            <div class='info'>
-              <p>` +
-                    items.title +
-                    `</p>
-              <p>` +
-                    items.type +
-                    `</p>
-              <p>` +
-                    items.rating +
-                    `</p>
-            </div>
-            </div>
-          </li>
-        `;
-                container.append(item);
-            });
         })
         .catch(error => {
             console.log(error);
