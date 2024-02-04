@@ -47,6 +47,12 @@ $(document).ready(function () {
             });
             $("#topAiring").empty();
             sortByAiring.forEach(items => {
+                let status;
+                if(items.status == "Releasing"){
+                  status = '<i class="fa-solid fa-clock"></i>';
+                }else{
+                  status = '<i class="fa-solid fa-check"></i>';
+                }
                 const item =
                     `<li class='item' data-src=''>
                        <div class='item-cover'>
@@ -56,8 +62,8 @@ $(document).ready(function () {
                          <span id='score'><i class="fa-regular fa-face-smile"></i> ` +
                     items.score +
                     `%</span>
-                          <span id='caption'><i class="fa-solid fa-closed-captioning"></i> ` +
-                    items.currentEpisode +
+                          <span id='caption'>`+status+` ` +
+                    items.status +
                     `</span>
                        </div>
                        <p id='item-title'>` +
