@@ -31,7 +31,16 @@ $(document).ready(function () {
             $("#score").text(results.score);
             const favorites = formatNumber(results.favorites);
             $("#favorites").text(favorites);
-            
+            let status;
+            if (results.status == "Finished Airing") {
+                status = '<i class="fa-solid fa-check"></i>';
+            } else {
+                status = '<i class="fa-solid fa-clock"></i>';
+            }
+            $("#status").html(status+ ' '+results.status);
+            $("#type").html('<i class="fa-solid fa-tv"></i> ' +results.type);
+            $("#source").html('<i class="fa-solid fa-book"></i> ' +results.source);
+            $("#duration").html('<i class="fa-solid fa-hourglass"></i> ' +results.duration);
         })
         .catch(error => {
             console.log(error);
