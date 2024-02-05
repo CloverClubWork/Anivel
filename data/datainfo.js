@@ -3,9 +3,18 @@ $(document).ready(function () {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(key);
     }
-    const novelId = getQueryParam("id");
+    const idParam = getQueryParam("id");
     
+    let url = 'https://consumetmyapi.vercel.app/meta/mal/info/'+idParam;
     $.ajax({
-      url: 'https://consumetmyapi.vercel.app/'
+      url: url,
+      method: 'GET',
+      dataType: 'json',
+      success: function(data){
+        
+      },
+      error: function(error){
+        console.log(error);
+      }
     });
 });
