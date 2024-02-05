@@ -18,7 +18,7 @@ $(document).ready(function () {
             $("#latestEpisode").empty();
             results.forEach(items => {
                 const item =
-                    `<li class='item' data-src='/data/page.html?id=`+items.anilistId+`'>
+                    `<li class='item' data-src='/data/page.html?id=`+items.malId+`'>
                        <div class='item-cover'>
                           <img src='` +
                     items.cover +
