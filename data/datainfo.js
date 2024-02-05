@@ -4,7 +4,7 @@ $(document).ready(function () {
         return urlParams.get(key);
     }
     const idParam = getQueryParam("id");
-    let params = 'https://consumetmyapi.vercel.app/meta/mal/info/'+idParam;
+    let params = 'https://api.jikan.moe/v4/anime/'+idParam+'/full';
     
     fetch(params)
     .then(response => {
@@ -14,10 +14,10 @@ $(document).ready(function () {
       return response.json();
     })
     .then(data => {
-      const results = data;
-      $('#animeCover').attr('src', results.image);
-      $('#anime-title').text(results.title.english);
-      $('#anime-title-romaji').text(results.title.romaji);
+      const results = data.data;
+      $('#animeCover').attr('src', results.images.webp.large_image_url);
+      $('#anime-title').text(results.title_english);
+      $('#anime-title-romaji').text(results.title);
     })
     .catch(error => {
       console.log(error);
