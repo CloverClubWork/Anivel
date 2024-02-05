@@ -15,7 +15,7 @@ $(document).ready(function () {
     }
     const idParam = getQueryParam("id");
     let params = "https://api.jikan.moe/v4/anime/" + idParam + "/full";
-
+    let episodeParam = 'https://consumetmyapi.vercel.app/meta/mal/info/'+idParam;
     fetch(params)
         .then(response => {
             if (!response.ok) {
@@ -51,8 +51,64 @@ $(document).ready(function () {
             $("#airedTime").text(aired);
             const premiered = results.season;
             $("#season").text(premiered.toUpperCase()+' '+results.year);
+            const genres = results.genres;
+            genres.forEach(genres => {
+              const item =
+              `
+                <li>
+                  <p>`+genres.name+`</p>
+                </li>
+              `;
+              $('#genres').append(item);
+            });
+            const studios = results.studios;
+            studios.forEach(studios => {
+              const item =
+              `
+                <li>
+                  <p>`+studios.name+`</p>
+                </li>
+              `;
+              $('#studios').append(item);
+            });
         })
         .catch(error => {
             console.log(error);
         });
+        
+    //Episodes
+    fetch(episodeParam)
+    .then(response => {
+      if(!response.ok){
+        throw new Error('Something went wrong!');
+      }
+      return response.json();
+    })
+    .then(data => {
+      const results = data.episodes;
+      results.forEach(episodes => {
+        let epTitle, epSynopsis, epCover;
+        epCover = episodes.image;
+        if(episodes.title == null){
+          epTitle = 'Episode '+episodes.number;
+        }
+        if(episodes.description == null){
+          epSynopsis = 'Stream Episode '+episodes.number+' on HD';
+        }
+        const episode =
+        `
+        <li data-src=''>
+          <img src='`+epCover+`' alt='Episode Cover' loading='lazy'/>
+          <div>
+            <h5>`+epTitle+`</h5>
+            <p>`+epSynopsis+`</p>
+          </div>
+        </li>
+        `;
+        $('#episodes').append(episode);
+      });
+    })
+    .catch(error => {
+      console.log(error);
+    });
 });
