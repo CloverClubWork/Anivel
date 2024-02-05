@@ -41,6 +41,16 @@ $(document).ready(function () {
             $("#type").html('<i class="fa-solid fa-tv"></i> ' +results.type);
             $("#source").html('<i class="fa-solid fa-book"></i> ' +results.source);
             $("#duration").html('<i class="fa-solid fa-hourglass"></i> ' +results.duration);
+            $("#overview").html(results.synopsis);
+            let aired;
+            if(results.aired.prop.to.year == null){
+              aired = results.aired.prop.from.year+'-'+results.aired.prop.from.month+'-'+results.aired.prop.from.day+' to ?';
+            }else{
+              aired = results.aired.prop.from.year+'-'+results.aired.prop.from.month+'-'+results.aired.prop.from.day+' to '+results.aired.prop.to.year+'-'+results.aired.prop.to.month+'-'+results.aired.prop.to.day;
+            }
+            $("#airedTime").text(aired);
+            const premiered = results.season;
+            $("#season").text(premiered.toUpperCase()+' '+results.year);
         })
         .catch(error => {
             console.log(error);
