@@ -4,17 +4,21 @@ $(document).ready(function () {
         return urlParams.get(key);
     }
     const idParam = getQueryParam("id");
+    console.log(idParam)
+    let params = 'https://consumetmyapi.vercel.app/meta/mal/info/'+idParam;
     
-    let url = 'https://consumetmyapi.vercel.app/meta/mal/info/'+idParam;
-    $.ajax({
-      url: url,
-      method: 'GET',
-      dataType: 'json',
-      success: function(data){
-        
-      },
-      error: function(error){
-        console.log(error);
+    fetch(params)
+    .then(response => {
+      if(!response.ok){
+        throw new Error('Something went wrong!');
       }
+      return response.json();
+    })
+    .then(data => {
+      console.log(data);
+    })
+    .catch(error => {
+      console.log(error);
     });
+   
 });
