@@ -14,10 +14,10 @@ $(document).ready(function () {
       return response.json();
     })
     .then(data => {
-      const results = data.data;
-      $('#animeCover').attr('src', results.images.webp.large_image_url);
-      $('#anime-title').text(results.title_english);
-      $('#anime-title-romaji').text(results.title);
+      const results = data;
+      $('#animeCover').attr('src', results.image);
+      $('#anime-title').text(results.title.english);
+      $('#anime-title-romaji').text(results.title.romaji);
     })
     .catch(error => {
       console.log(error);
