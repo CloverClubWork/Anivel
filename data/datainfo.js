@@ -31,6 +31,7 @@ $(document).ready(function () {
             $("#score").text(results.score);
             const favorites = formatNumber(results.favorites);
             $("#favorites").text(favorites);
+            
         })
         .catch(error => {
             console.log(error);
