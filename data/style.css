@@ -325,7 +325,7 @@ ul li:nth-child(n + 16) {
   padding: 8px;
   overflow: scroll;
 }
-.more-info{
+.more-info, .episodes-container{
   max-width: 100%;
   height: auto;
   padding: 10px;
@@ -335,10 +335,66 @@ ul li:nth-child(n + 16) {
   height: auto;
   display: flex;
   margin: 8px 0;
+  justify-content: flex-start;
+  align-items: center;
 }
 .info-text h5, .info-text p{
   font-size: 10pt;
 }
 .info-text p{
   margin-left: 8px;
+}
+#genres{
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  padding: 0 7px;
+}
+#genres li{
+  min-width: 100px;
+  height: auto;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#studios{
+  width: auto;
+  height: auto;
+  list-style-type: none;
+  padding: 0 7px;
+}
+#studios li{
+  margin: 0;
+  min-width: auto;
+  padding: 0;
+}
+#episodes{
+  max-width: 100%;
+  height: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+#episodes li{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin: 7px 0;
+}
+#episodes li img{
+  width: 130px;
+  height: 100%;
+  border-radius: 8px;
+}
+#episodes li div{
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
