@@ -4,7 +4,6 @@ $(document).ready(function () {
         return urlParams.get(key);
     }
     const idParam = getQueryParam("id");
-    console.log(idParam)
     let params = 'https://consumetmyapi.vercel.app/meta/mal/info/'+idParam;
     
     fetch(params)
@@ -15,7 +14,10 @@ $(document).ready(function () {
       return response.json();
     })
     .then(data => {
-      console.log(data);
+      const results = data.data;
+      $('#animeCover').attr('src', results.images.webp.large_image_url);
+      $('#anime-title').text(results.title_english);
+      $('#anime-title-romaji').text(results.title);
     })
     .catch(error => {
       console.log(error);
