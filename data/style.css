@@ -325,3 +325,20 @@ ul li:nth-child(n + 16) {
   padding: 8px;
   overflow: scroll;
 }
+.more-info{
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.info-text{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 8px 0;
+}
+.info-text h5, .info-text p{
+  font-size: 10pt;
+}
+.info-text p{
+  margin-left: 8px;
+}
