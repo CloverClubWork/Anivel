@@ -82,34 +82,13 @@
                     <div class="episodes-container">
                         <h4>Episodes</h4>
                         <ul id="episodes"></ul>
-                        <button id="loadMore" type="button">Load More</button>
+                        <div class="pagination" id="pagination">
+                          
+                        </div>
+                        <!-- <button id="loadMore" type="button">Load More</button>-->
                     </div>
                 </div>
             </div>
         </div>
-
-        <script type="text/javascript" charset="utf-8">
-            $(document).ready(function () {
-                const itemsToShow = 12;
-                const list = $("#episodes");
-                const loadMoreBtn = $('#loadMore');
-                function showItems() {
-                    const items = list.querySelectorAll("li");
-                    items.forEach((item, index) => {
-                        if (index < itemsToShow) {
-                            item.style.display = "list-item";
-                        } else {
-                            item.style.display = "none";
-                        }
-                    });
-                    function loadMore() {
-                        itemsToShow += 12; // Increase the number of items to show
-                        showItems();
-                    }
-                    showItems();
-                    loadMoreBtn.click(loadMore);
-                }
-            });
-        </script>
     </body>
 </html>
