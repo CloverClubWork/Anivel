@@ -213,28 +213,32 @@ ul li:nth-child(n+16){
 }
 .cover-page{
   max-width: 100%;
-  height: auto;
+  height: 165px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   padding: 30px 10px 10px 10px;
 }
 #animeCover{
-  width: 130px;
-  height: 140px;
+  width: 150px;
+  height: inherit;
   border-radius: 5px;
 }
 .anime-info{
   width: 100%;
-  height: auto;
+  height: inherit;
   padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 .anime-info h3{
   font-size: 16pt;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  max-height: 2.5em;
+  max-height: 3em;
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
 }
@@ -243,7 +247,19 @@ ul li:nth-child(n+16){
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  max-height: 2.5em;
+  max-height: 3em;
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
+}
+.icon-container{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon-container i, .icon-container span{
+  font-size: 10pt;
+  margin: 3px;
 }
