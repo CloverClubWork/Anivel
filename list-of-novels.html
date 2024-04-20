@@ -73,7 +73,38 @@
   </div>
 
   <script src="../script/jquery-3.7.1.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../script/script.js" type="text/javascript" charset="utf-8"></script>
   <script src="../script/script.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    $(document).ready(function(){
+      const path = '../path/data.json';
+      async function listOfNovels(api) {
+        try {
+          const response = await fetch(api);
+          const data = await response.json();
+      
+          const results = data.sort(function(a, b) {
+            return a.title.localeCompare(b.title);
+          });
+          $(".hero-container").css(
+            "background-image",
+            'url("' + results[0].images.banner + '")'
+          );
+          results.forEach((items, index) => {
+            const position = index + 1;
+            const item = `
+                <li>
+                  <a href='pages.html?id=${items.id}'><span style='color:${items.color}'>#${position}: ${items.title}</span></a>
+                </li>
+              `;
+            $('#list-of-items').append(item);
+          });
+      
+        } catch (error) {
+          console.log(error);
+        }
+      }
+      listOfNovels(path);
+    });
+  </script>
 </body>
 </html>

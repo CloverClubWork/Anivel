@@ -63,34 +63,6 @@ $(document).ready(function() {
   }
   getDataNewRelease(path);
 
-  async function listOfNovels(api) {
-    try {
-      const response = await fetch(api);
-      const data = await response.json();
-
-      const results = data.sort(function(a, b) {
-        return a.title.localeCompare(b.title);
-      });
-      $(".hero-container").css(
-        "background-image",
-        'url("' + results[0].images.banner + '")'
-      );
-      results.forEach((items, index) => {
-        const position = index + 1;
-        const item = `
-          <li>
-            <a href='pages.html?id=${items.id}'><span style='color:${items.color}'>#${position}: ${items.title}</span></a>
-          </li>
-        `;
-        $('#list-of-items').append(item);
-      });
-
-    } catch (error) {
-      console.log(error);
-    }
-  }
-  listOfNovels(path);
-
   function getRandomAuthor(books) {
     // Get all unique authors
     const authors = [...new Set(books.map(book => book.author))];
