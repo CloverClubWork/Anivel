@@ -54,21 +54,27 @@
       <h5>About Us</h5>
       <p>Blast LN is dedicated to providing best way’s to download official and non-official translations for selected novels.<br>Suggestions and request novels are also open on our discord server.<br><br></p>
     </div>
-    <div class="item-container">
-      <ul class="item-list" id="item-list"></ul>
-    </div>
-    <div class="item-container">
-      <h5 style='padding: 10px;margin-top: 20px' id="randomBookAuthor"></h5>
-      <ul id="booksByAuthorList"></ul>
-      <div style="max-width:100%;height:auto;padding:8px;display:flex;justify-content:center;align-items:center;font-size:8pt">
-        <p><i style="color:#5a5a5a;font-style:italic;">Noted: This part randomly select author and display it's books that sorted by it's popularity</i></p>
+    <div class="main-page">
+      <h1 id="page-title"></h1>
+      <div class="page-content-header">
+        <img id="page-cover" alt="Cover"  loading='lazy'/>
+        <div class="info-container">
+          <p id="page-status"></p>
+          <p id="page-type"></p>
+          <p id="page-author"></p>
+          <p id="page-artist"></p>
+        </div>
       </div>
-    </div> 
-    <div class="item-container" style="margin-bottom: 50px">
-      <h5 style='padding: 10px;margin-top: 20px'>Base on Genres</h5>
-      <ul id="genreList"></ul>
-      <ul id="genreListItems"></ul>
-    </div> 
+      <p id="page-synopsis"></p>
+      <p id="page-translation"></p>
+      <ul id="page-genres"></ul>
+    </div>
+    
+    <div class="volume-container">
+      <h5><i class="fa-solid fa-folder"></i> Volumes</h5>
+      <ul id="volume-list"></ul>
+    </div>
+    
     <div class="footer">
       <a href="" id="footer-link">Home</a>
       <a href="" id="footer-link">List of Novels</a>
@@ -81,7 +87,7 @@
   </div>
 
   <script src="../script/jquery-3.7.1.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../script/script.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../script/pages.js" type="text/javascript" charset="utf-8"></script>
   <script src="../script/script.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
