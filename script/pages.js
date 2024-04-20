@@ -32,9 +32,11 @@ $(document).ready(function(){
         const volumesList = result.volumes;
         volumesList.forEach(items => {
           const item = `
-            <li data-src=''>
+            <li>
+             <a href='${items.link}' target='_blanl'>
               <img src='${items.cover}' alt='Cover' loading='lazy'/>
-              <span>${items.name}</span>
+             </a>
+             <span>${items.name}</span>
             </li>
           `;
           $('#volume-list').append(item);

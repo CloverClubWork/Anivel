@@ -361,11 +361,17 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
 }
-#volume-list li img{
-  width: 100%;
+#volume-list li a{
+  width: inherit;
   height: 170px;
+  text-decoration: none;
+  overflow: hidden;
+}
+#volume-list li a img{
+  width: 100%;
+  height: inherit;
   border-radius: 5px;
 }
 #volume-list li span{
