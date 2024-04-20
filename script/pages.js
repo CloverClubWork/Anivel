@@ -12,6 +12,10 @@ $(document).ready(function(){
       const result = getResponse(data, id);
       if(result){
         
+        $('meta[name="title"]').text(result.title);
+        $('meta[name="image"]').text(result.images.banner);
+        $('meta[property="og:image"]').text(result.images.banner);
+        $('meta[property="og:title"]').text(result.title);
         $('.hero-container').css('background-image','url("'+result.images.banner+'")');
         $('.main-page').css('background-color', result.color);
         $('#page-cover').attr('src', result.images.cover);
