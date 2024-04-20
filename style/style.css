@@ -378,6 +378,22 @@ body{
   font-size: 12pt;
 }
 
+/* List of Novels */
+#list-of-items{
+  max-width: 100%;
+  list-style-type: none;
+  padding: 0 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+#list-of-items li a{
+  width: inherit;
+  text-decoration: none;
+  font-size: 12pt
+}
 
 /* Media Queries */
 @media only screen and (min-width:600px){

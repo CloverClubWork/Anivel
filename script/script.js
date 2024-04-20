@@ -17,6 +17,8 @@ $(document).ready(function () {
                 "background-image",
                 'url("' + data[0].images.banner + '")'
             );
+            
+            listOfNovels(data);
 
             data.forEach((items, index) => {
                 const position = index + 1;
@@ -122,8 +124,33 @@ $(document).ready(function () {
         const sorted = uniqueGenres.sort();
         return sorted;
     }
-
-    $('#item-list').on('click', ' li div div button', function(){
+    
+    function  listOfNovels(data) {
+      const results = data.sort(function(a,b){
+        return a.title.localeCompare(b.title);
+      });
+      $(".hero-container").css(
+        "background-image",
+        'url("' + results[0].images.banner + '")'
+      );
+      results.forEach((items, index) => {
+        const position = index + 1;
+        const item = `
+          <li>
+            <a href='pages.html?id=${items.id}'><span style='color:${items.color}'>#${position}: ${items.title}</span></a>
+          </li>
+        `;
+        $('#list-of-items').append(item);
+      });
+    }
+    
+    $('#item-list').on('click', 'li div div button', function(){
+      window.location.href = $(this).data('src');
+    });
+    $('#genreListItems').on('click', 'li', function() {
+      window.location.href = $(this).data('src');
+    });
+    $('#booksByAuthorList').on('click', 'li', function() {
       window.location.href = $(this).data('src');
     });
 });
