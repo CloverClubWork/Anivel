@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+  max-width: 100%;
+  min-height: 100%;
+  background-color: #1a1a1a;
+}
+.main-container{
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+}
+.hero-container{
+  max-width: inherit;
+  height: 300px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/hero-banner.jpg');
+  overflow: hidden;
+}
+.hero-bg{
+  height: 100%;
+  min-width: 100%;
+  background-color: #4f4f4f68;
+}
+.navigation{
+  min-width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.nav-item button{
+  padding: 8px;
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 5px;
+}
+.nav-item button, .nav-item button i{
+  font-size: 13pt;
+}
+.nav-item i{
+  font-size: 17pt;
+}
+.menu-content{
+  min-width: 100%;
+  height: auto;
+  background-color: #1a1a1a;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 8px;
+  display: none;
+}
+.menu-content .menu-item{
+  width: 100%;
+  padding: 10px;
+}
+.menu-content .menu-item a{
+  text-decoration: none;
+}
+.hero-content{
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero-content h1{
+  font-size: 25pt;
+  font-weight: 800;
+}
+.hero-content p{
+  font-size: 11pt;
+}
+.short-description{
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.short-description h5{
+  font-size: 17pt;
+  font-weight: 800;
+}
+.short-description p{
+  font-size: 9pt;
+  text-align: center;
+  line-height: 2;
+}
+.item-container{
+  width: inherit;
+  height: auto;
+}
+.item-container h5{
+  font-size: 15pt;
+  color: #7c7c7c;
+}
+.item-list{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  overflow: scroll;
+}
+.item-list li{
+  min-width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.item-list li:nth-child(n+11){
+  display: none;
+}
+.item-list li h3{
+  font-size: 15pt;
+  font-weight: 800;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item-list li div{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item-list li #item-content img{
+  min-width: 150px;
+  height: 100%;
+  border-radius: 5px;
+}
+.item-list li #item-content div{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+.item-list li #item-content div h5{
+  font-size: 25px;
+  color: #f6f6f6;
+}
+.item-list li #item-content div button{
+  padding: 8px;
+  font-size: 15pt;
+  border: none;
+  border-radius: 5px;
+  background-color: #23d83b49;
+}
+.item-list li #item-content div button:active{
+  background-color: #23d83bac;
+}
+.item-list li p{
+  font-size: 9pt;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#booksByAuthorList, #genreListItems{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  overflow: scroll;
+  gap: 8px;
+  padding: 5px 10px;
+}
+#booksByAuthorList li, #genreListItems li{
+  min-width: 150px;
+  height: 210px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+#booksByAuthorList li img, #genreListItems li img{
+  width: 100%;
+  height: inherit;
+}
+#booksByAuthorList li div, #genreListItems li div{
+  min-width: 100%;
+  height: 100%;
+  padding: 8px 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#booksByAuthorList li div span, #genreListItems li div span{
+  font-size: 11pt;
+  padding: 8px;
+  border-radius: 5px;
+  color: #f6f6f6;
+}
+.footer{
+  max-width: 100%;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  background-color: #000000;
+}
+#footer-link{
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.copyright-footer{
+  max-width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.copyright-footer p{
+  font-size: 10pt;
+  color: #6c6c6c;
+}
+#genreList{
+  max-width: 100%;
+  height: auto;
+  list-style-type: none;
+  overflow: scroll;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+#genreList li{
+  width: auto;
+  height: auto;
+  padding: 8px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.selected-genre{
+  color: #ff2566;
+  border: 1px solid #ff2566;
+}
+#booksByAuthorList li:active div, #genreListItems li:active div{
+  background-color: #4141414f;
+}
+
+/* Page styling */
+.main-page{
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.main-page #page-title{
+  font-size: 15pt;
+  font-weight: 800;
+}
+.page-content-header{
+  max-width: 100%;
+  height: 210px;
+  display: flex;
+  gap: 10px;
+  margin: 8px 0;
+}
+#page-cover{
+  min-width: 150px;
+  height: 100%;
+  border-radius: 5px;
+}
+.info-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+}
+#page-synopsis{
+  margin: 20px 0 10px 0;
+  font-size: 10pt;
+}
+#page-translation{
+  width: 40%;
+  margin: 7px 0;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 10pt;
+  background-color: #41414168;
+  text-align: center;
+}
+#page-genres{
+  max-width: 100%;
+  display: flex;
+  overflow: scroll;
+  gap: 8px;
+  list-style-type: none;
+}
+#page-genres li{
+  width: auto;
+  height: auto;
+  font-size: 10pt;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #41414168;
+  text-align: center;
+  white-space: nowrap;
+}
+.volume-container{
+  max-width: 100%;
+  height: auto;
+  margin: 30px 0 50px 0;
+  padding: 10px;
+}
+.volume-container h5{
+  font-size: 15pt;
+  color: #7c7c7c;
+}
+#volume-list{
+  max-width: 100%;
+  height: auto;
+  list-style-type: none;
+  padding: 8px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+#volume-list li{
+  width: 130px;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#volume-list li img{
+  width: 100%;
+  height: 170px;
+  border-radius: 5px;
+}
+#volume-list li span{
+  font-size: 12pt;
+}
+
+/* Media Queries */
+@media only screen and (min-width:600px){
+  #menuBtn{
+    display: none;
+  }
+  .menu-content{
+    display: flex;
+    min-width: 50%;
+    position: relative;
+    background-color: transparent;
+  }
+  .menu-content .menu-item a{
+    white-space: nowrap;
+  }
+  .item-list li{
+    min-width: 60%;
+  }
+}
+@media only screen and (min-width:1000px){
+  .item-list li{
+    min-width: 40%;
+  }
+}
