@@ -372,6 +372,7 @@ body{
   font-size: 12pt;
 }
 
+
 /* Media Queries */
 @media only screen and (min-width:600px){
   #menuBtn{
