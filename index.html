@@ -1,104 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="title" content="Blast LN" />
-  <meta name="description" content="Downloading Light Novels with ease can be done with us. Best downloading novels for you to have" />
-  <meta name="image" content="../images/favico.png" />
-  <meta name="url" content="" />
-  <meta name="type" content="website" />
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="Blast LN" />
+        <meta
+            name="description"
+            content="Downloading Light Novels with ease can be done with us. Best downloading novels for you to have"
+        />
+        <meta name="image" content="../images/favico.png" />
+        <meta name="url" content="" />
+        <meta name="type" content="website" />
 
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="../images/favico.png" />
-  <meta property="og:url" content="" />
-  <meta property="og:type" content="website" />
-  <script src="https://kit.fontawesome.com/8d333124e2.js" crossorigin="anonymous"></script>
-  <title>Blast LN</title>
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="../images/favico.png" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <script
+            src="https://kit.fontawesome.com/8d333124e2.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Blast LN</title>
 
-  <link rel="shortcut icon" href="../images/favico.png" type="image/x-icon" />
-  <link rel="stylesheet" href="../style/style.css" type="text/css" media="all" />
-</head>
-<body>
-  
-  <div class="main-container">
-    <div class="hero-container">
-      <div class="hero-bg">
-        <nav class="navigation">
-          <div class="nav-item"><button type="button"><i class="fa-brands fa-discord"></i> Discord</button></div>
-          <div class="nav-item" id="menuBtn">
-            <i class="fa-solid fa-bars menu-icon"></i>
-          </div>
-          <div class="menu-content">
-            <div class="menu-item">
-              <a id="menu-link" href="/">Home</a>
+        <link
+            rel="shortcut icon"
+            href="../images/favico.png"
+            type="image/x-icon"
+        />
+        <link
+            rel="stylesheet"
+            href="../style/style.css"
+            type="text/css"
+            media="all"
+        />
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="hero-container">
+                <div class="hero-bg">
+                    <nav class="navigation">
+                        <div class="nav-item">
+                            <button type="button">
+                                <i class="fa-brands fa-discord"></i> Discord
+                            </button>
+                        </div>
+                        <div class="nav-item" id="menuBtn">
+                            <i class="fa-solid fa-bars menu-icon"></i>
+                        </div>
+                        <div class="menu-content">
+                            <div class="menu-item">
+                                <a id="menu-link" href="/">Home</a>
+                            </div>
+                            <div class="menu-item">
+                                <a id="menu-link" href="../list-of-novels.html"
+                                    >List of Novels</a
+                                >
+                            </div>
+                            <div class="menu-item">
+                                <a id="menu-link" href="#">Discord</a>
+                            </div>
+                            <div class="menu-item">
+                                <a id="menu-link" href="#">Support Us</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="hero-content">
+                        <h1>Blast LN</h1>
+                        <p>Your home for downloading novels for free</p>
+                    </div>
+                </div>
             </div>
-            <div class="menu-item">
-              <a id="menu-link" href="../list-of-novels.html">List of Novels</a>
+            <div class="short-description">
+                <h5>About Us</h5>
+                <p>
+                    Blast LN is dedicated to providing best way’s to download
+                    official and non-official translations for selected
+                    novels.<br />Suggestions and request novels are also open on
+                    our discord server.<br /><br />
+                </p>
             </div>
-            <div class="menu-item">
-              <a id="menu-link" href="#">Discord</a>
+            <div class="item-container">
+                <ul class="item-list" id="item-list"></ul>
             </div>
-            <div class="menu-item">
-              <a id="menu-link" href="#">Support Us</a>
+            <div class="item-container">
+                <h5
+                    style="padding: 10px; margin-top: 20px"
+                    id="randomBookAuthor"
+                ></h5>
+                <ul id="booksByAuthorList"></ul>
+                <div
+                    style="
+                        max-width: 100%;
+                        height: auto;
+                        padding: 8px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 8pt;
+                    "
+                >
+                    <p>
+                        <i style="color: #5a5a5a; font-style: italic"
+                            >Noted: This part randomly select author and display
+                            it's books that sorted by it's popularity</i
+                        >
+                    </p>
+                </div>
             </div>
-          </div>
-        </nav>
-        <div class="hero-content">
-          <h1>Blast LN</h1>
-          <p>Your home for downloading novels for free</p>
+            <div class="item-container" style="margin-bottom: 50px">
+                <h5 style="padding: 10px; margin-top: 20px">Base on Genres</h5>
+                <ul id="genreList"></ul>
+                <ul id="genreListItems"></ul>
+            </div>
+            <div class="footer">
+                <a href="/" id="footer-link">Home</a>
+                <a href="../list-of-novels.html" id="footer-link"
+                    >List of Novels</a
+                >
+                <a href="" id="footer-link">Discord</a>
+                <a href="" id="footer-link">Support Us?</a>
+            </div>
+            <div class="copyright-footer">
+                <p>Blast LN © 2024</p>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="short-description">
-      <h5>About Us</h5>
-      <p>Blast LN is dedicated to providing best way’s to download official and non-official translations for selected novels.<br>Suggestions and request novels are also open on our discord server.<br><br></p>
-    </div>
-    <div class="item-container">
-      <ul class="item-list" id="item-list"></ul>
-    </div>
-    <div class="item-container">
-      <h5 style='padding: 10px;margin-top: 20px' id="randomBookAuthor"></h5>
-      <ul id="booksByAuthorList"></ul>
-      <div style="max-width:100%;height:auto;padding:8px;display:flex;justify-content:center;align-items:center;font-size:8pt">
-        <p><i style="color:#5a5a5a;font-style:italic;">Noted: This part randomly select author and display it's books that sorted by it's popularity</i></p>
-      </div>
-    </div> 
-    <div class="item-container" style="margin-bottom: 50px">
-      <h5 style='padding: 10px;margin-top: 20px'>Base on Genres</h5>
-      <ul id="genreList"></ul>
-      <ul id="genreListItems"></ul>
-    </div> 
-    <div class="footer">
-      <a href="/" id="footer-link">Home</a>
-      <a href="../list-of-novels.html" id="footer-link">List of Novels</a>
-      <a href="" id="footer-link">Discord</a>
-      <a href="" id="footer-link">Support Us?</a>
-    </div>
-    <div class="copyright-footer">
-      <p>Blast LN © 2024</p>
-    </div>
-  </div>
 
-  <script src="../script/jquery-3.7.1.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../script/script.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../script/script.min.js" type="text/javascript" charset="utf-8"></script>
-  <!-- Default Statcounter code for Blast LN https://blastln.netlify.app -->
-<script type="text/javascript">
-var sc_project=12991742; 
-var sc_invisible=0; 
-var sc_security="ad730406"; 
-var scJsHost = "https://";
-document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
-Statcounter" href="https://statcounter.com/" target="_blank"><img
-class="statcounter" src="https://c.statcounter.com/12991742/0/ad730406/0/"
-alt="Web Analytics Made Easy - Statcounter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
-<a href="https://statcounter.com/p12991742/?guest=1">Page Stats</a>
-</body>
+        <script
+            src="../script/jquery-3.7.1.js"
+            type="text/javascript"
+            charset="utf-8"
+        ></script>
+        <script
+            src="../script/script.js"
+            type="text/javascript"
+            charset="utf-8"
+        ></script>
+        <script
+            src="../script/script.min.js"
+            type="text/javascript"
+            charset="utf-8"
+        ></script>
+        <!-- Default Statcounter code for Blast LN https://blastln.netlify.app -->
+        <script type="text/javascript">
+            var sc_project = 12991742;
+            var sc_invisible = 0;
+            var sc_security = "ad730406";
+            var scJsHost = "https://";
+            document.write(
+                "<sc" +
+                    "ript type='text/javascript' src='" +
+                    scJsHost +
+                    "statcounter.com/counter/counter.js'></" +
+                    "script>"
+            );
+        </script>
+        <noscript
+            ><div class="statcounter">
+                <a
+                    title="Web Analytics Made Easy -
+Statcounter"
+                    href="https://statcounter.com/"
+                    target="_blank"
+                    ><img
+                        class="statcounter"
+                        src="https://c.statcounter.com/12991742/0/ad730406/0/"
+                        alt="Web Analytics Made Easy - Statcounter"
+                        referrerpolicy="no-referrer-when-downgrade"
+                /></a></div
+        ></noscript>
+        <!-- End of Statcounter Code -->
+        <a href="https://statcounter.com/p12991742/?guest=1">Page Stats</a>
+    </body>
 </html>
