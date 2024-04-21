@@ -249,8 +249,8 @@
         "id": "002",
         "title": "Private Tutor to the Duke’s Daughter",
         "images": {
-            "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2024/02/private-tutor-to-the-duke-s-daughter-volume-11.jpg?w=500&ssl=1",
-            "banner": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/116864-BJta3aOpd2Td.jpg"
+            "cover": "../images/private-tutor-vol-12.jpg",
+            "banner": "../images/private-tutor-vol12-cover.jpg"
         },
         "status": "Releasing",
         "currentVolume": 11,
@@ -340,6 +340,12 @@
                 "name": "Volume 11",
                 "cover": "../images/Koujo-Denka-no-Katei-Kyoushi-volume-11.jpg",
                 "link": "https://mega.nz/folder/tZUQhCYL#S9tKPGKbxjbgy3oMtgv1EA"
+            },
+            {
+                "number": 12,
+                "name": "Volume 12",
+                "cover": "../images/private-tutor-vol-12.jpg",
+                "link": "https://mega.nz/folder/1YtDRBSC#rxfywYWTn4xsuA96p7Vnnw"
             }
         ]
     },
