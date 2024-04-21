@@ -1,4 +1,108 @@
 [
+  {
+        "id": "002",
+        "title": "Private Tutor to the Duke’s Daughter",
+        "images": {
+            "cover": "../images/private-tutor-vol-12.jpg",
+            "banner": "../images/private-tutor-vol12-cover.jpg"
+        },
+        "status": "Releasing",
+        "currentVolume": 12,
+        "popularity": 309,
+        "type": "Light Novel",
+        "author": "Riku Nanano",
+        "artist": "Cura",
+        "color": "#e43593",
+        "release": {
+            "start": {
+                "day": 20,
+                "month": 12,
+                "year": 2018
+            },
+            "end": {
+                "day": 0,
+                "month": 0,
+                "year": 0
+            }
+        },
+        "translation": ["J-Novel Club"],
+        "genres": ["Drama", "Fantasy", "Romance"],
+        "synopsis": "After failing the final exam for his dream job at the royal court, promising young sorcerer Allen wants nothing more than to retreat to a simple life in the countryside. Unfortunately for him, he can’t even afford the train fare! His only solution is to get a job, but his one lead is anything but modest—Duke Howard, one of the kingdom’s most powerful nobles, needs a private tutor for his daughter Tina. Despite her academic brilliance, Tina is incapable of casting even a single spell. To make matters worse, entrance exams for the prestigious Royal Academy are fast approaching, and magical aptitude is mandatory! Can Allen use his unique brand of spellcasting to help Tina overcome her magical impairment, a mystery that not even the kingdom’s finest sorcerers have been able to solve? And does her father, the duke, even want him to?<br><br>(Source: J-Novel Club)",
+        "volumes": [
+            {
+                "number": 1,
+                "name": "Volume 1",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/81-ITu0W1qL.jpg",
+                "link": "https://mega.nz/folder/AN0HmKzK#A8-SsFZAJNS409jg0XUXRw"
+            },
+            {
+                "number": 2,
+                "name": "Volume 2",
+                "cover": "https://m.media-amazon.com/images/I/51DbIB3ANNL.jpg",
+                "link": "https://mega.nz/folder/4NVBiYKL#HUtgyFMVboBoaAHaUZuXkg"
+            },
+            {
+                "number": 3,
+                "name": "Volume 3",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/818-Pa5FmXL.jpg",
+                "link": "https://mega.nz/folder/YMFQjChD#AB_dd0NNhCRcQ9q1oqr6gg"
+            },
+            {
+                "number": 4,
+                "name": "Volume 4",
+                "cover": "https://img1.od-cdn.com/ImageType-400/6645-1/%7B1B19F371-5239-4CE5-823A-A027D3FA416F%7DIMG400.JPG",
+                "link": "https://mega.nz/folder/cU1UhIoD#6ZBQGYeOvHOy4kZQlDNzzg"
+            },
+            {
+                "number": 5,
+                "name": "Volume 5",
+                "cover": "https://img1.od-cdn.com/ImageType-400/6645-1/%7BAC5EA951-C4E7-4205-9289-E5163D955AC6%7DIMG400.JPG",
+                "link": "https://mega.nz/folder/NFtgBYxR#17HaDjAJccvzu2r7PNfuaA"
+            },
+            {
+                "number": 6,
+                "name": "Volume 6",
+                "cover": "https://m.media-amazon.com/images/I/51LYlGp7ToL.jpg",
+                "link": "https://mega.nz/folder/YQMCTQKK#L6Uk7xUFsysmTGd4N-mq3A"
+            },
+            {
+                "number": 7,
+                "name": "Volume 7",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/81Z3Oe2ae+L.jpg",
+                "link": "https://mega.nz/folder/McVlzIxL#9DXJLOKyqmGyQE-XMTmdfQ"
+            },
+            {
+                "number": 8,
+                "name": "Volume 8",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/810yL+nUa5L.jpg",
+                "link": "https://mega.nz/folder/sNtTTaTS#vyvHfSZ4yNgLrN5aHHIpaA"
+            },
+            {
+                "number": 9,
+                "name": "Volume 9",
+                "cover": "https://m.media-amazon.com/images/I/61ba+WkoCgL.jpg",
+                "link": "https://mega.nz/folder/MB8DDAwY#IF859L4qBhYguX7WCxlmFA"
+            },
+            {
+                "number": 10,
+                "name": "Volume 10",
+                "cover": "https://img1.od-cdn.com/ImageType-400/6645-1/%7BF0516766-3CC2-40BA-AE99-57BB26B48EF7%7DIMG400.JPG",
+                "link": "https://mega.nz/folder/NE0hURjK#7_4e_4MZte0Zv9HufTbJvA"
+            },
+            {
+                "number": 11,
+                "name": "Volume 11",
+                "cover": "../images/Koujo-Denka-no-Katei-Kyoushi-volume-11.jpg",
+                "link": "https://mega.nz/folder/tZUQhCYL#S9tKPGKbxjbgy3oMtgv1EA"
+            },
+            {
+                "number": 12,
+                "name": "Volume 12",
+                "cover": "../images/private-tutor-vol-12.jpg",
+                "link": "https://mega.nz/folder/1YtDRBSC#rxfywYWTn4xsuA96p7Vnnw"
+            }
+        ]
+    },
     {
         "id": "005",
         "title": "She Professed Herself Pupil of the Wise Man",
@@ -243,110 +347,6 @@
               "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2024/02/Date-A-Live-v11-Devil-Tobiichi.jpg?w=500&ssl=1",
               "link": "https://mega.nz/folder/kMdVSKRS#bLFlTGLosatmryuHfVgNSA"
           }
-        ]
-    },
-    {
-        "id": "002",
-        "title": "Private Tutor to the Duke’s Daughter",
-        "images": {
-            "cover": "../images/private-tutor-vol-12.jpg",
-            "banner": "../images/private-tutor-vol12-cover.jpg"
-        },
-        "status": "Releasing",
-        "currentVolume": 11,
-        "popularity": 309,
-        "type": "Light Novel",
-        "author": "Riku Nanano",
-        "artist": "Cura",
-        "color": "#e43593",
-        "release": {
-            "start": {
-                "day": 20,
-                "month": 12,
-                "year": 2018
-            },
-            "end": {
-                "day": 0,
-                "month": 0,
-                "year": 0
-            }
-        },
-        "translation": ["J-Novel Club"],
-        "genres": ["Drama", "Fantasy", "Romance"],
-        "synopsis": "After failing the final exam for his dream job at the royal court, promising young sorcerer Allen wants nothing more than to retreat to a simple life in the countryside. Unfortunately for him, he can’t even afford the train fare! His only solution is to get a job, but his one lead is anything but modest—Duke Howard, one of the kingdom’s most powerful nobles, needs a private tutor for his daughter Tina. Despite her academic brilliance, Tina is incapable of casting even a single spell. To make matters worse, entrance exams for the prestigious Royal Academy are fast approaching, and magical aptitude is mandatory! Can Allen use his unique brand of spellcasting to help Tina overcome her magical impairment, a mystery that not even the kingdom’s finest sorcerers have been able to solve? And does her father, the duke, even want him to?<br><br>(Source: J-Novel Club)",
-        "volumes": [
-            {
-                "number": 1,
-                "name": "Volume 1",
-                "cover": "https://images-na.ssl-images-amazon.com/images/I/81-ITu0W1qL.jpg",
-                "link": "https://mega.nz/folder/AN0HmKzK#A8-SsFZAJNS409jg0XUXRw"
-            },
-            {
-                "number": 2,
-                "name": "Volume 2",
-                "cover": "https://m.media-amazon.com/images/I/51DbIB3ANNL.jpg",
-                "link": "https://mega.nz/folder/4NVBiYKL#HUtgyFMVboBoaAHaUZuXkg"
-            },
-            {
-                "number": 3,
-                "name": "Volume 3",
-                "cover": "https://images-na.ssl-images-amazon.com/images/I/818-Pa5FmXL.jpg",
-                "link": "https://mega.nz/folder/YMFQjChD#AB_dd0NNhCRcQ9q1oqr6gg"
-            },
-            {
-                "number": 4,
-                "name": "Volume 4",
-                "cover": "https://img1.od-cdn.com/ImageType-400/6645-1/%7B1B19F371-5239-4CE5-823A-A027D3FA416F%7DIMG400.JPG",
-                "link": "https://mega.nz/folder/cU1UhIoD#6ZBQGYeOvHOy4kZQlDNzzg"
-            },
-            {
-                "number": 5,
-                "name": "Volume 5",
-                "cover": "https://img1.od-cdn.com/ImageType-400/6645-1/%7BAC5EA951-C4E7-4205-9289-E5163D955AC6%7DIMG400.JPG",
-                "link": "https://mega.nz/folder/NFtgBYxR#17HaDjAJccvzu2r7PNfuaA"
-            },
-            {
-                "number": 6,
-                "name": "Volume 6",
-                "cover": "https://m.media-amazon.com/images/I/51LYlGp7ToL.jpg",
-                "link": "https://mega.nz/folder/YQMCTQKK#L6Uk7xUFsysmTGd4N-mq3A"
-            },
-            {
-                "number": 7,
-                "name": "Volume 7",
-                "cover": "https://images-na.ssl-images-amazon.com/images/I/81Z3Oe2ae+L.jpg",
-                "link": "https://mega.nz/folder/McVlzIxL#9DXJLOKyqmGyQE-XMTmdfQ"
-            },
-            {
-                "number": 8,
-                "name": "Volume 8",
-                "cover": "https://images-na.ssl-images-amazon.com/images/I/810yL+nUa5L.jpg",
-                "link": "https://mega.nz/folder/sNtTTaTS#vyvHfSZ4yNgLrN5aHHIpaA"
-            },
-            {
-                "number": 9,
-                "name": "Volume 9",
-                "cover": "https://m.media-amazon.com/images/I/61ba+WkoCgL.jpg",
-                "link": "https://mega.nz/folder/MB8DDAwY#IF859L4qBhYguX7WCxlmFA"
-            },
-            {
-                "number": 10,
-                "name": "Volume 10",
-                "cover": "https://img1.od-cdn.com/ImageType-400/6645-1/%7BF0516766-3CC2-40BA-AE99-57BB26B48EF7%7DIMG400.JPG",
-                "link": "https://mega.nz/folder/NE0hURjK#7_4e_4MZte0Zv9HufTbJvA"
-            },
-            {
-                "number": 11,
-                "name": "Volume 11",
-                "cover": "../images/Koujo-Denka-no-Katei-Kyoushi-volume-11.jpg",
-                "link": "https://mega.nz/folder/tZUQhCYL#S9tKPGKbxjbgy3oMtgv1EA"
-            },
-            {
-                "number": 12,
-                "name": "Volume 12",
-                "cover": "../images/private-tutor-vol-12.jpg",
-                "link": "https://mega.nz/folder/1YtDRBSC#rxfywYWTn4xsuA96p7Vnnw"
-            }
         ]
     },
     {
