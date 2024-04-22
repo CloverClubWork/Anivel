@@ -169,8 +169,8 @@
         "id": "002",
         "title": "Private Tutor to the Duke’s Daughter",
         "images": {
-            "cover": "../images/private-tutor-vol-12.jpg",
-            "banner": "../images/private-tutor-vol12-cover.jpg"
+            "cover": "https://blastln.netlify.app/images/private-tutor-vol-12.jpg",
+            "banner": "https://blastln.netlify.app/images/private-tutor-vol12-cover.jpg"
         },
         "status": "Releasing",
         "currentVolume": 12,
@@ -258,13 +258,13 @@
             {
                 "number": 11,
                 "name": "Volume 11",
-                "cover": "../images/Koujo-Denka-no-Katei-Kyoushi-volume-11.jpg",
+                "cover": "https://blastln.netlify.app/images/Koujo-Denka-no-Katei-Kyoushi-volume-11.jpg",
                 "link": "https://mega.nz/folder/tZUQhCYL#S9tKPGKbxjbgy3oMtgv1EA"
             },
             {
                 "number": 12,
                 "name": "Volume 12",
-                "cover": "../images/private-tutor-vol-12.jpg",
+                "cover": "https://blastln.netlify.app/images/private-tutor-vol-12.jpg",
                 "link": "https://mega.nz/folder/1YtDRBSC#rxfywYWTn4xsuA96p7Vnnw"
             }
         ]
@@ -520,7 +520,7 @@
         "title": "Heavenly Swords of the Twin Stars",
         "images": {
             "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx154695-KMnSF0z7FHDB.png",
-            "banner": "../images/hero-banner.jpg"
+            "banner": "https://blastln.netlify.app/images/hero-banner.jpg"
         },
         "status": "Releasing",
         "currentVolume": 1,
