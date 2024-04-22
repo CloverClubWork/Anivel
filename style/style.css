@@ -122,12 +122,12 @@ body{
   overflow: scroll;
 }
 .item-list li{
-  min-width: 95%;
+  min-width: 340px;
   height: auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -153,7 +153,8 @@ body{
 .item-list li #item-content img{
   min-width: 150px;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
+  box-shadow: 6px 5px 5px 2px #322d2dd0;
 }
 .item-list li #item-content div{
   min-height: 100%;
@@ -292,7 +293,8 @@ body{
 #page-cover{
   min-width: 150px;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
+  box-shadow: 6px 6px 5px 2px #322d2dd0;
 }
 .info-container{
   width: 100%;
@@ -411,11 +413,11 @@ body{
     white-space: nowrap;
   }
   .item-list li{
-    min-width: 60%;
+    min-width: 340px;
   }
 }
 @media only screen and (min-width:1000px){
   .item-list li{
-    min-width: 40%;
+    min-width: 340px;
   }
 }
