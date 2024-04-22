@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const path = "../path/data.json";
+  const path = "https://cloverclubwork.github.io/Anivel/path/data.json";
 
   async function getDataNewRelease(api) {
     try {
