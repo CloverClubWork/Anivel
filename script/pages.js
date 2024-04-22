@@ -1,7 +1,7 @@
 $(document).ready(function(){
   const urlParams = new URLSearchParams(window.location.search);
   const path = '../path/data.json';
-  const id = urlParams.get('id');
+  const id = urlParams.get('novel');
   
   async function getDataById(api, id){
     try{

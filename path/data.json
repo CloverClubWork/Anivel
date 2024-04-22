@@ -1,5 +1,171 @@
 [
   {
+        "id": "SOFIEKFOisido29229",
+        "title": "86-EIGHTY SIX",
+        "images": {
+            "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2023/11/86-EIGHTY-SIX-v12-Holy-Blue-Bullet.jpg?resize=683%2C1024&ssl=1",
+            "banner": "https://wallpaperaccess.com/full/7057176.jpg"
+        },
+        "status": "Releasing",
+        "currentVolume": 12,
+        "popularity": 14437,
+        "type": "Light Novel",
+        "author": "Asato Asato",
+        "artist": "Shirabi",
+        "color": "#e46b28",
+        "release": {
+            "start": {
+                "day": 10,
+                "month": 2,
+                "year": 2017
+            },
+            "end": {
+                "day": 0,
+                "month": 0,
+                "year": 0
+            }
+        },
+        "translation": ["Yen Press"],
+        "genres": ["Action","Drama","Mecha","Sci-Fi"],
+        "synopsis": "A War Without Casualties:<br><br>The Republic of San Magnolia has long been under attack from the neighboring Giadian Empire's army of unmanned drones known as the Legion. After years of painstaking research, the Republic finally developed autonomous drones of their own, turning the one-sided struggle into a war without casualties-or at least, that's what the government claims.<br><br>In truth, there is no such thing as a bloodless war. Beyond the fortified walls protecting the eighty-five Republic territories lies the \"nonexistent\" Eighty-Sixth Sector. The young men and women of this forsaken land are branded the Eighty-Six and, stripped of their humanity, pilot the \"unmanned\" weapons into battle...<br><br>(Source: Yen Press)",
+        "volumes": [
+          {
+            "number": 1,
+            "name": "Volume 1",
+            "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2019/03/86-Eighty-Six-Light-Novel-Volume-1.jpg?w=500&ssl=1",
+            "link": "https://drive.google.com/file/d/18-uehj8-bE4OU3P4c-Cdx8ujk3H2Q_ct/view?usp=drivesdk"
+          },
+          {
+            "number": 2,
+            "name": "Volume 2",
+            "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2019/07/86-EIGHTY-SIX-Light-Novel-volume-2-cover.jpg?w=500&ssl=1",
+            "link": "https://drive.google.com/file/d/18B5E0-1PFrclxq929eREzcyKbtRHtyfq/view?usp=drivesdk"
+          },
+          {
+            "number": 3,
+            "name": "Volume 3",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81DLO7AyKPL.jpg",
+            "link": "https://drive.google.com/file/d/18MxLcfLrCMZ8ZxSbTcti7pP59Ch7l87y/view?usp=drivesdk"
+          },
+          {
+            "number": 4,
+            "name": "Volume 4",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81W5cgvyKbL.jpg",
+            "link": "https://drive.google.com/file/d/18JyzVcXmFzYO6rYF-4ItcroeP3h7aLnP/view?usp=drivesdk"
+          },
+          {
+            "number": 5,
+            "name": "Volume 5",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/91p3hM+OveL.jpg",
+            "link": "https://drive.google.com/file/d/18LqxnM-FOFnVWGDeTYM3cpeLzKiTe9BK/view?usp=drivesdk"
+          },
+          {
+            "number": 6,
+            "name": "Volume 6",
+            "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2020/11/65cde514-5884-4b87-ba97-1a87eaf8a137.jpg?w=500&ssl=1",
+            "link": "https://drive.google.com/file/d/17w9ODpLYCC7mmZRExvUAeEYpbJYfHolL/view?usp=drivesdk"
+          },
+          {
+            "number": 7,
+            "name": "Volume 7",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/815bDGLDIpL.jpg",
+            "link": "https://drive.google.com/file/d/185vQnJfDT_t3nCy5P9qm5bugOfQmn_Au/view?usp=drivesdk"
+          },
+          {
+            "number": 8,
+            "name": "Volume 8",
+            "cover": "https://external-preview.redd.it/rzUME1MctB06SnR_Z7sBbO5hD81MaZQM4Z5c9CWdQ-4.jpg?width=640&crop=smart&auto=webp&s=8ec010b4517c6e37265d3c99a131d02b4284951a",
+            "link": "https://drive.google.com/file/d/182w435KgR5aohWaUAniQOc9AebjmFl2P/view?usp=drivesdk"
+          },
+          {
+            "number": 9,
+            "name": "Volume 9",
+            "cover": "https://images.yenpress.com/imgs/9781975340001.jpg?w=285&h=422&type=books&s=ab8cec042e15ef02df7403829f8e8859",
+            "link": "https://drive.google.com/file/d/17sxSst2ov8EiI4sLK6kTstd_Lv7w0BmE/view?usp=drivesdk"
+          },
+          {
+            "number": 10,
+            "name": "Volume 10",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81gqbpdiAKL.jpg",
+            "link": "https://drive.google.com/file/d/17scjdm0rZyNdg1ujujx_B9sIyhfx3499/view?usp=drivesdk"
+          },
+          {
+            "number": 11,
+            "name": "Volume 11",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81uoGdE60CL.jpg",
+            "link": "https://drive.google.com/file/d/18HpWWi0v04OkNtGCCXOSmoG9rCVbSJ4w/view?usp=drivesdk"
+          },
+          {
+            "number": 12,
+            "name": "Volume 12",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/91VH9+JWLeL.jpg",
+            "link": "https://drive.google.com/file/d/184AgqUEEIXQGLQqaweV4tWci6Wl7tWCj/view?usp=drivesdk"
+          }
+        ]
+    },
+  {
+        "id": "006",
+        "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+        "images": {
+            "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2024/04/7th-Time-LoopThe-Villainess-Enjoys-a-Carefree-Life-Married-to-Her-Worst-Enemy-Vol.5.jpg?w=500&ssl=1",
+            "banner": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx129152-YSmWEprDzkha.jpg"
+        },
+        "status": "Releasing",
+        "currentVolume": 5,
+        "popularity": 1009,
+        "type": "Light Novel",
+        "author": "Touko Amekawa",
+        "artist": "Wan Hatipisu",
+        "color": "#50bbf1",
+        "release": {
+            "start": {
+                "day": 25,
+                "month": 10,
+                "year": 2020
+            },
+            "end": {
+                "day": 0,
+                "month": 0,
+                "year": 0
+            }
+        },
+        "translation": ["Seven Seas Entertainment"],
+        "genres": ["Fantasy", "Romance"],
+        "synopsis": "If you think being reincarnated once is a big deal, try seven times. From lowly pharmacist to embattled knight, Rishe has lived many lives. This time around, she’s determined to live in the lap of luxury–but there’s just one catch. To make her extravagant dreams come true, she has to marry the prince who killed her in one of her previous lives! It’s going to take every one of the skills she’s honed over multiple lifetimes to accomplish this goal!<br><br>(Source: Seven Seas Entertainment)",
+        "volumes": [
+            {
+                "number": 1,
+                "name": "Volume 1",
+                "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2022/06/7th-time-loop-vol-1.jpg?w=500&ssl=1",
+                "link": "https://mega.nz/folder/hMESHZYJ#GF_lfKUH6Of9VbqoJMj7Sw"
+            },
+            {
+                "number": 2,
+                "name": "Volume 2",
+                "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2022/11/7th-Time-Loop-The-Villainess-Enjoys-a-Carefree-Life-Married-to-Her-Worst-Enemy-Vol.2.jpg?w=500&ssl=1",
+                "link": "https://mega.nz/folder/pNk3STYC#T3GqhMXtErRUozW0nEAZxA"
+            },
+            {
+                "number": 3,
+                "name": "Volume 3",
+                "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2023/03/7th-Time-Loop_-The-Villainess-Enjoys-a-Carefree-Life-Married-to-Her-Worst-Enemy-Vol.-3.jpg?w=500&ssl=1",
+                "link": "https://mega.nz/folder/kR92CbLQ#xuwyCsL7HCpeb5G6V9OnLA"
+            },
+            {
+                "number": 4,
+                "name": "Volume 4",
+                "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2023/06/7th-Time-LoopThe-Villainess-Enjoys-a-Carefree-Life-Married-to-Her-Worst-Enemy-Vol.-4.jpg?w=500&ssl=1",
+                "link": "https://mega.nz/folder/NdE0xbzK#fu0arhNX9re_z62yaX1GKw"
+            },
+            {
+                "number": 5,
+                "name": "Volume 5",
+                "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2024/04/7th-Time-LoopThe-Villainess-Enjoys-a-Carefree-Life-Married-to-Her-Worst-Enemy-Vol.5.jpg?w=500&ssl=1",
+                "link": "https://mega.nz/folder/cM9QwDDI#0FsQstLNNh293mQ9VTHylQ"
+            }
+        ]
+    },
+  {
         "id": "002",
         "title": "Private Tutor to the Duke’s Daughter",
         "images": {

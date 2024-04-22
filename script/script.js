@@ -30,7 +30,7 @@ $(document).ready(function() {
                   <p>•New Released</p>
                   <h5>#${position}</h5>
                   <h5>Volume ${items.currentVolume}</h5>
-                  <button id='showPage' data-src='pages.html?id=${items.id}'>Read More</button>
+                  <button id='showPage' data-src='pages.html?novel=${items.id}'>Read More</button>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ $(document).ready(function() {
     results.forEach((items, index) => {
       const position = index + 1;
       const item = `
-           <li data-src='pages.html?id=${items.id}'>
+           <li data-src='pages.html?novel=${items.id}'>
              <img src='${items.images.cover}' alt='Cover' loading='lazy'/>
              <div>
                <span style='background-color:${items.color}'># ${position}</span>
@@ -104,7 +104,7 @@ $(document).ready(function() {
     data.forEach((items, index) => {
       const position = index + 1;
       const item = `
-           <li data-src='pages.html?id=${items.id}'>
+           <li data-src='pages.html?novel=${items.id}'>
              <img src='${items.images.cover}' alt='Cover' loading='lazy'/>
              <div>
                <span style='background-color:${items.color}'># ${position}</span>
